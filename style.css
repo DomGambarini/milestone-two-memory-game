@@ -7,4 +7,30 @@
 body {
     height: 100vh;
     background-color: #36454f;
+    display: flex;
+} 
+
+#grid-container {
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 25px);
+    position: relative;
+    margin: 3px;
+}
+
+.top-face,
+.bottom-face {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: blue;
 }
