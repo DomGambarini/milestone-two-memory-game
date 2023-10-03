@@ -58,6 +58,31 @@ function resetBoard() {
     secondCard = null;
 }
 
+//Fisher-Yates algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Get all the card elements and convert them into an array
+const cardElements = Array.from(document.querySelectorAll('.card'));
+
+// Shuffle the card elements
+shuffleArray(cardElements);
+
+// Get the grid container
+const gridContainer = document.getElementById('grid-container');
+
+// Clear the grid container
+gridContainer.innerHTML = '';
+
+// Append the shuffled card elements back to the grid container
+cardElements.forEach((card) => {
+    gridContainer.appendChild(card);
+});
+
 for (const card of cards) {
     card.addEventListener('click', turnCard);
 }
