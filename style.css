@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    perspective: 1000px;
 }
 
 .card {
@@ -25,11 +26,18 @@ body {
     margin: 3px;
     transform: scale(1);
     cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    
 }
 
 .card:active{
     transform: scale(.97);
     transition: transform .2s;
+}
+
+.card.turn {
+    transform: rotateY(180deg);
 }
 
 .top-face,
@@ -40,4 +48,9 @@ body {
     padding: 15px;
     border-radius: 10px;
     background-color: blue;
+    backface-visibility: hidden;
+}
+
+.bottom-face {
+    transform: rotateY(180deg);
 }
