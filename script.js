@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll('.card');
 
-//Game state
+// Game state
 
 let flippedCard = false;
 let firstCard;
@@ -11,46 +11,53 @@ function turnCard() {
     if (pendingMove) return;
     this.classList.add('turn');
 
-    //first click
-    if(!flippedCard) {
+    if (!flippedCard) {
         flippedCard = true;
         firstCard = this;
-        
     } else {
-        //second card
-        flippedCard = false;
+        // Prevent double-clicking the same card
+        if (this === firstCard) {
+            return;
+        }
+
         secondCard = this;
-        
-        checkForMatch()
+        checkForMatch();
     }
-};
+}
 
 function checkForMatch() {
-    //check for match
+    // Check for match
     if (firstCard.dataset.name === secondCard.dataset.name) {
-        //it's a match
-        disableCards()
+        // It's a match
+        disableCards();
     } else {
-        //not a match
-        unflipCards()
-    };
-};
+        // Not a match
+        unflipCards();
+    }
+}
 
 function disableCards() {
     firstCard.removeEventListener('click', turnCard);
     secondCard.removeEventListener('click', turnCard);
-};
+    resetBoard();
+}
 
 function unflipCards() {
     pendingMove = true;
     setTimeout(function () {
         firstCard.classList.remove('turn');
         secondCard.classList.remove('turn');
-        pendingMove = false;
+        resetBoard();
     }, 1000);
-};
+}
 
+function resetBoard() {
+    flippedCard = false;
+    pendingMove = false;
+    firstCard = null;
+    secondCard = null;
+}
 
 for (const card of cards) {
     card.addEventListener('click', turnCard);
-};
+}
