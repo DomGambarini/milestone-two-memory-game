@@ -23,6 +23,13 @@ body {
     height: calc(33.333% - 25px);
     position: relative;
     margin: 3px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.card:active{
+    transform: scale(.97);
+    transition: transform .2s;
 }
 
 .top-face,
