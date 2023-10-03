@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll('.card');
+const button = document.getElementById('button');
 
 // Game state
 
@@ -6,6 +7,16 @@ let flippedCard = false;
 let firstCard;
 let secondCard;
 let pendingMove = false;
+
+button.addEventListener('click', restartGame);
+
+function restartGame() {
+    flippedCard = false;
+    pendingMove = false;
+    firstCard = null;
+    secondCard = null;
+}
+
 
 function turnCard() {
     if (pendingMove) return;
@@ -29,14 +40,14 @@ function checkForMatch() {
     // Check for match
     if (firstCard.dataset.name === secondCard.dataset.name) {
         // It's a match
-        disableCards();
+        stopCards();
     } else {
         // Not a match
         unflipCards();
     }
 }
 
-function disableCards() {
+function stopCards() {
     firstCard.removeEventListener('click', turnCard);
     secondCard.removeEventListener('click', turnCard);
     resetBoard();
@@ -86,3 +97,4 @@ cardElements.forEach((card) => {
 for (const card of cards) {
     card.addEventListener('click', turnCard);
 }
+

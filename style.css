@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-    background-color: #36454f;
-    display: flex;
-} 
+
 
 #grid-container {
     width: 800px;
@@ -17,6 +13,8 @@ body {
     flex-wrap: wrap;
     margin: auto;
     perspective: 1000px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
