@@ -41,6 +41,10 @@ function checkForMatch() {
         score -= 3;
         unflipCards();
     }
+    updateScore();
+}
+
+function updateScore() {
     scoreDisplay.textContent = `Score: ${score}`;
 }
 
@@ -66,16 +70,6 @@ function resetBoard() {
     secondCard = null;
 }
 
-// function calculateScore() {
-//     if (firstCard.dataset.name === secondCard.dataset.name) {
-//         scoreDisplay.innerHTML += 5;
-//     } else {
-//         return
-//     }
-// }
-
-
-
 //Fisher-Yates algorithm
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -98,5 +92,21 @@ cardElements.forEach((card) => {
 
 for (const card of cards) {
     card.addEventListener('click', turnCard);
+}
+
+button.addEventListener('click', clearBoard);
+
+function clearBoard() {
+    score = 0;
+    updateScore(); // Add this line to update the score display
+    cardElements.forEach((card) => {
+        card.classList.remove('turn'); // Remove the 'turn' class from all cards
+        card.addEventListener('click', turnCard); // Re-add click event listeners to all cards
+    });
+    shuffleArray(cardElements);
+    resetBoard();
+    cardElements.forEach((card) => {
+        gridContainer.appendChild(card);
+    });
 }
 
