@@ -1,21 +1,15 @@
 const cards = document.querySelectorAll('.card');
 const button = document.getElementById('button');
+const gridContainer = document.getElementById('grid-container');
+const scoreDisplay = document.getElementById('result');
+
 
 // Game state
-
 let flippedCard = false;
 let firstCard;
 let secondCard;
 let pendingMove = false;
-
-button.addEventListener('click', restartGame);
-
-function restartGame() {
-    flippedCard = false;
-    pendingMove = false;
-    firstCard = null;
-    secondCard = null;
-}
+let score = 0;
 
 
 function turnCard() {
@@ -39,12 +33,15 @@ function turnCard() {
 function checkForMatch() {
     // Check for match
     if (firstCard.dataset.name === secondCard.dataset.name) {
-        // It's a match
+        //It's a match. Increment score by 7 for a correct match
+        score += 7; 
         stopCards();
     } else {
-        // Not a match
+        // Not a match. Decrease score by 3 for an incorrect match
+        score -= 3;
         unflipCards();
     }
+    scoreDisplay.textContent = `Score: ${score}`;
 }
 
 function stopCards() {
@@ -69,6 +66,16 @@ function resetBoard() {
     secondCard = null;
 }
 
+// function calculateScore() {
+//     if (firstCard.dataset.name === secondCard.dataset.name) {
+//         scoreDisplay.innerHTML += 5;
+//     } else {
+//         return
+//     }
+// }
+
+
+
 //Fisher-Yates algorithm
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -83,11 +90,6 @@ const cardElements = Array.from(document.querySelectorAll('.card'));
 // Shuffle the card elements
 shuffleArray(cardElements);
 
-// Get the grid container
-const gridContainer = document.getElementById('grid-container');
-
-// Clear the grid container
-gridContainer.innerHTML = '';
 
 // Append the shuffled card elements back to the grid container
 cardElements.forEach((card) => {
