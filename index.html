@@ -6,16 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Memory Card Game: World Cup Rugby 2023</title>
+
 </head>
 
 <body>
 
+   <div id="nav-container">
+    <div  class="score-container"><button id="button">REMATCH</button></div>
+    <div class="score-container"><span id="result">Score: </span></div>
+   </div>
 
-    <button id="button">REMATCH</button>
-
-    <div><span id="result">Score: </span></div>
-
+   <div id="container">
     <div id="grid-container">
         <div class="card" data-name="gareth-anscombe">
             <img class="bottom-face" src="images/anscombe.png" alt="Gareth Anscombe">
@@ -65,9 +72,8 @@
             <img class="bottom-face" src="images/liam-williams.png" alt="Liam Williams">
             <img class="top-face" src="images/logo.png" alt="World cup rugby logo">
         </div>
-
-
     </div>
+</div>
 
 
 

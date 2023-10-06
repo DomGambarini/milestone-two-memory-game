@@ -4,15 +4,56 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("images/grass200.png");
+    height: 1100px;
+}
 
+#nav-container {
+    display: flex;
+    flex-direction: column;
+    background: pink;  
+    padding-left: 25%;
+}
+
+.score-container {
+    width: 25%;
+    padding: 0.5rem;
+    margin: auto 0;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    padding: 3px;
+    background-color: lightblue;
+    font-size: 12px;
+    font-weight: bold;
+    height: 7ch;
+    width: 17ch;
+    border-radius: 10px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: red;
+    border-color: red;
+    box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 50%);
+}
+
+
+#container {
+    margin-top: 50px;
+}
 
 #grid-container {
     width: 800px;
     height: 700px;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     perspective: 1000px;
+    margin: auto;
     align-items: center;
     justify-content: center;
 }
@@ -45,7 +86,7 @@
     position: absolute;
     padding: 15px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: lightblue;
     backface-visibility: hidden;
 }
 
