@@ -1,7 +1,29 @@
 const cards = document.querySelectorAll('.card');
-const button = document.getElementById('button');
+const rematchButton = document.getElementById('rematch-button');
 const gridContainer = document.getElementById('grid-container');
 const scoreDisplay = document.getElementById('result');
+const openModal = document.querySelector('[data-modal-target]');
+const closeModal = document.querySelector('[data-close-button]');
+const overlay = document.getElementById('overlay');
+
+openModal.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        modalOpen(modal)
+    })
+})
+
+function modalOpen(modal) {
+    if (modal == null) return
+    modal.classList.add('active')
+    overlay.classList.add('active')
+}
+
+function modalClose(modal) {
+    if (modal == null) return
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
+}
 
 
 // Game state
@@ -94,7 +116,7 @@ for (const card of cards) {
     card.addEventListener('click', turnCard);
 }
 
-button.addEventListener('click', clearBoard);
+rematchButton.addEventListener('click', clearBoard);
 
 function clearBoard() {
     score = 0;
