@@ -2,16 +2,23 @@ const cards = document.querySelectorAll('.card');
 const rematchButton = document.getElementById('rematch-button');
 const gridContainer = document.getElementById('grid-container');
 const scoreDisplay = document.getElementById('result');
-const openModal = document.querySelector('[data-modal-target]');
-const closeModal = document.querySelector('[data-close-button]');
+const openModal = [...document.querySelectorAll('[data-modal-target]')];
+const closeModal = [...document.querySelectorAll('[data-close-button]')];
 const overlay = document.getElementById('overlay');
 
 openModal.forEach(button => {
     button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        modalOpen(modal)
-    })
-})
+        const modal = document.querySelector(button.dataset.modalTarget);
+        modalOpen(modal);
+    });
+});
+
+closeModal.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('.modal');
+        modalClose(modal);
+    });
+});
 
 function modalOpen(modal) {
     if (modal == null) return
