@@ -85,7 +85,6 @@ header {
     right: 0;
     bottom: 0;
     background-color: rgba(28, 175, 67, 0.5);
-    z-index: 2;
     pointer-events: none;
 }
 
@@ -99,6 +98,20 @@ body {
     min-height: 100vh;
 }
 
+#logo {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+#result {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 #rematch-button,
 #rules-button {
@@ -108,8 +121,8 @@ body {
     background-color: lightblue;
     font-size: 12px;
     font-weight: bold;
-    height: 7ch;
-    width: 17ch;
+    height: 5ch;
+    width: 15ch;
     border-radius: 10px;
     border: 2px solid green;
     cursor: pointer;
@@ -128,8 +141,8 @@ body {
 }
 
 #grid-container {
-    width: 800px;
-    height: 700px;
+   width: 850px;
+   height: 800px;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
