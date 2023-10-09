@@ -41,7 +41,7 @@ header {
     border: 1px solid black;
     border-radius: 10px; 
     background-color: pink;
-    z-index: 3;
+    z-index: 10;
     width: 500px;
     max-width: 80%;
     transition: 300ms ease-in-out;
@@ -79,7 +79,7 @@ header {
 
 #overlay {
     position: fixed;
-    /* opacity: 0; */
+    opacity: 0;
     top: 0;
     left: 0;
     right: 0;
@@ -100,7 +100,8 @@ body {
 }
 
 
-#rematch-button, #rules-button {
+#rematch-button,
+#rules-button {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     padding: 3px;
@@ -114,7 +115,13 @@ body {
     cursor: pointer;
 }
 
-#rematch-button, #rules-button:hover {
+#rematch-button:hover {
+    color: red;
+    border-color: red;
+    box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 50%);
+}
+
+#rules-button:hover {
     color: red;
     border-color: red;
     box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 50%);
