@@ -190,3 +190,59 @@ body {
 .bottom-face {
     transform: rotateY(180deg);
 }
+
+@media (max-width: 600px) {
+    header {
+            padding: 1em;
+            background-color: lightpink;
+            display: block;
+        }
+    
+        .nav {
+            background: lightpink;
+            padding: 2px;
+        }
+    
+        .nav-list {
+            flex-direction: column;
+        }
+    
+        #logo {
+            margin-left: 0;
+        }
+    
+        .list-item {
+            margin: 0.5em 0;
+        }
+}
+
+@media (min-width: 769px) {
+
+    /* Add styles for tablets and larger screens here */
+    header {
+        padding: 1.5em;
+        background-color: lightpink;
+        display: flex;
+    }
+
+    .nav {
+        background: lightpink;
+        padding: 2px;
+        flex-grow: 1;
+    }
+
+    .nav-list {
+        flex-direction: row;
+    }
+
+    #logo {
+        margin-left: auto;
+    }
+
+    .list-item {
+        gap: 1em;
+        margin-left: 1em;
+        margin-right: auto;
+    }
+}
+
