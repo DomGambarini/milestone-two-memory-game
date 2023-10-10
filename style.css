@@ -97,7 +97,7 @@ header {
 }
 
 body {
-    background-image: url("images/grass300.png");
+    background-image: url("images/grass.png");
     min-height: 100vh;
 }
 
@@ -218,7 +218,6 @@ body {
 
 @media (min-width: 769px) {
 
-    /* Add styles for tablets and larger screens here */
     header {
         padding: 1.5em;
         background-color: lightpink;
