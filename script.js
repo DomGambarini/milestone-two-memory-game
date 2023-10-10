@@ -66,16 +66,31 @@ function checkForMatch() {
         score += 7; 
         stopCards();
     } else {
-        // Not a match. Decrease score by 3 for an incorrect match
+        // Not a match. Decrease score by 3 
         score -= 3;
         unflipCards();
     }
     updateScore();
+    checkForWinner();
 }
 
 function updateScore() {
-    scoreDisplay.textContent = `Score: ${score}`;
+    scoreDisplay.textContent = `Score: ${score}`;    
 }
+
+function checkForWinner() {
+    const matchedCards = document.querySelectorAll('.card.turn');
+    if (matchedCards.length === cards.length) {
+        if (score > 0) {
+            alert('You win!');
+        } else if (score < 0) {
+            alert('You lose!');
+        } else {
+            alert('It\s a draw!');
+        }
+    }
+}
+
 
 function stopCards() {
     firstCard.removeEventListener('click', turnCard);
@@ -137,5 +152,6 @@ function clearBoard() {
     cardElements.forEach((card) => {
         gridContainer.appendChild(card);
     });
+    checkForWinner();
 }
 
