@@ -222,7 +222,8 @@ body {
 @media (max-width: 600px) {
 
     #grid-container {
-        max-width: 100%;
+        width: 450px;
+        height: 400px;
         padding: 0 10px;
     }
 
@@ -252,12 +253,14 @@ body {
 
    
     #grid-container {
-        max-width: 100%;
-        padding: 0 10px;
-    }
+            width: 450px;
+            height: 300px;
+            padding: 0 10px;
+        }
 
     .card {
-        width: 50%;
+        width: 70px;
+        height: 70px;
         margin: 5px 0;
     }
 
@@ -275,6 +278,5 @@ body {
     .list-item {
         margin: 10px 0;
     }
-    
 }
 
