@@ -142,10 +142,10 @@ rematchButton.addEventListener('click', clearBoard);
 
 function clearBoard() {
     score = 0;
-    updateScore(); // Add this line to update the score display
+    updateScore(); 
     cardElements.forEach((card) => {
-        card.classList.remove('turn'); // Remove the 'turn' class from all cards
-        card.addEventListener('click', turnCard); // Re-add click event listeners to all cards
+        card.classList.remove('turn'); 
+        card.addEventListener('click', turnCard); 
     });
     shuffleArray(cardElements);
     resetBoard();
