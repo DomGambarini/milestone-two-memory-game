@@ -2,12 +2,11 @@
 
 ### Memory Card Game: World Cup Rugby 2023 website is designed to achieve the following business objectives:
 
-- Engage rugby enthusiats and fans of the Rugby World Cup 2023 by providing an enjoyable and interactive gaming experience. 
-- Promote the Rugby World Cup by using the game as a fun and enducational tool. 
-- Enhance the brand visibility and recognition of the World Cup. 
-- Increase website traffic. Use the game as a traffic generator and increase user engagement. 
-- Community building among rugby fans by incorporating social sharing features and encouraging fans to connect with each other. 
-
+- Engage rugby enthusiats and fans of the Rugby World Cup 2023 by providing an enjoyable and interactive gaming experience.
+- Promote the Rugby World Cup by using the game as a fun and enducational tool.
+- Enhance the brand visibility and recognition of the World Cup.
+- Increase website traffic. Use the game as a traffic generator and increase user engagement.
+- Community building among rugby fans by incorporating social sharing features and encouraging fans to connect with each other.
 
 ### Memory Card Game: World Cup Rugby 2023 aims to fulfill the following user goals:
 
@@ -19,8 +18,7 @@
 - Accessable to all ages and skill levels.
 - Can help children with their cognitive, memory and concentration.
 - Family friendly. Parents and children can engage playing the game.
-- Help encourage sport to a new younger generation.  
-
+- Help encourage sport to a new younger generation.
 
 ## 5 Planes of UX
 
@@ -35,3 +33,24 @@ To ensure a comprehensive and seamless user experience, this website focuses on 
 **Skeleton:** The game's layout, typography, and visual elements are designed to create an appealing and harmonious interface. It uses responsive design to ensure the game adapts well to various devices and screen sizes.
 
 **Surface:** The game utilizes captivating visuals, including player images and world cup logos. The color scheme, typography, and overall style align with the world cup's branding, creating a visually engaging and enjoyable gaming experience for users.
+
+## User Stories
+
+As a user of World Cup Rugby 2023 Memory Card Game:
+
+- I want the game to be visually appealing and engaging, with clear instructions to guide me throughout my experience.
+- I want to learn about some of the players and countries in the rugby world cup.
+- I want to relax and have fun playing a game.
+- As a new player, I want to see the current score displayed on the screen, so I can track my progress during the game.
+- As a player, I want the ability to click on a "REMATCH" button, so I can start a new game after completing or ending a game.
+- As a player, I want to click on a "RULES" button, so I can access the game rules and understand how to play.
+- As a player, I want to be alerted when I win, lose or draw the game.
+- As a player, I want to play the game on different devices and screen sizes, and I expect the game to be responsive and work well on both desktop and mobile.
+- As a player, I want to have the option to start a new game at any time by clicking the "REMATCH" button, so I can restart without refreshing the page.
+
+### Returning Users
+
+As a returning user to World Cup Rugby 2023 Memory Card Game:
+
+- I want to check and see if there any additions to the game.
+- I want to show peers how play and have fun using the game.
