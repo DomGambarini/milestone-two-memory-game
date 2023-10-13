@@ -20,3 +20,18 @@
 - Can help children with their cognitive, memory and concentration.
 - Family friendly. Parents and children can engage playing the game.
 - Help encourage sport to a new younger generation.  
+
+
+## 5 Planes of UX
+
+To ensure a comprehensive and seamless user experience, this website focuses on the following five planes of UX:
+
+**Strategy:** The game is strategically designed to align with the business goals of promoting the Rugby World Cup 2023 and engaging users effectively. It aims to educates users about the World Cup while providing entertainment. The game's design is user-centered, catering to both rugby enthusiasts and the younger generation new to the sport, ensuring that it resonates with the essence of the event.
+
+**Scope:** The game's scope encompasses essential game features, player cards and game mechanics. It emphasizes simplicity and accessibility, ensuring that players of all ages can easily understand and enjoy the game.
+
+**Structure:** The game's navigation and structure are intuitive, making it easy for users to access different sections and features. It employs a clear and consistent labeling to facilitate smooth gameplay, catering to both adult rugby fans and children.
+
+**Skeleton:** The game's layout, typography, and visual elements are designed to create an appealing and harmonious interface. It uses responsive design to ensure the game adapts well to various devices and screen sizes.
+
+**Surface:** The game utilizes captivating visuals, including player images and world cup logos. The color scheme, typography, and overall style align with the world cup's branding, creating a visually engaging and enjoyable gaming experience for users.
