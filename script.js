@@ -80,11 +80,11 @@ function checkForWinner() {
     const matchedCards = document.querySelectorAll(".card.turn");
     if (matchedCards.length === cards.length) {
         if (score > 0) {
-            alert("You win!");
+            Swal.fire("You win!");
         } else if (score < 0) {
-            alert("You lose!");
+            Swal.fire("You lose!");
         } else {
-            alert("It is a draw!");
+            Swal.fire("It is a draw!");
         }
     }
 }
