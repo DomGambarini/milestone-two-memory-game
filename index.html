@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,13 +13,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
-    <title>Memory Card Game: World Cup Rugby 2023</title>
+
+    <title>World Cup Rugby 2023</title>
   </head>
   <header>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="list-item" id="logo">WORLD CUP RUGBY 2023: MEMORY GAME</li>
-        <li class="list-item"><span id="result">SCORE: </span></li>
+        <li class="list-item" id="logo">WORLD CUP RUGBY 2023</li>
+        <li class="list-item" id="score-container">
+          <span id="result">Score: 0</span>
+        </li>
         <li class="list-item"><button id="rematch-button">REMATCH</button></li>
         <li class="list-item">
           <button id="rules-button" data-modal-target="#modal">RULES</button>
@@ -58,103 +61,147 @@
       <div class="card" data-name="antoine-dupont">
         <img
           class="bottom-face"
-          src="images/antoine-dupont.png"
+          src="assets/images/antoine-dupont.png"
           alt="Antoine Dupont"
         />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
       <div class="card" data-name="antoine-dupont">
         <img
           class="bottom-face"
-          src="images/antoine-dupont.png"
+          src="assets/images/antoine-dupont.png"
           alt="Antoine Dupont"
         />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
       <div class="card" data-name="jac-morgan">
-        <img class="bottom-face" src="images/jac-morgan.png" alt="Jac Morgan" />
+        <img
+          class="bottom-face"
+          src="assets/images/jac-morgan.png"
+          alt="Jac Morgan"
+        />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
       <div class="card" data-name="jac-morgan">
-        <img class="bottom-face" src="images/jac-morgan.png" alt="Jac Morgan" />
+        <img
+          class="bottom-face"
+          src="assets/images/jac-morgan.png"
+          alt="Jac Morgan"
+        />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
-    <div class="card" data-name="jamie-ritchie">
-        <img class="bottom-face" src="images/jamie-ritchie.png" alt="Jamie Ritchie" />
-        <img class="top-face" src="images/logo.png" alt="World cup rugby logo" />
-    </div>
       <div class="card" data-name="jamie-ritchie">
-        <img class="bottom-face" src="images/jamie-ritchie.png" alt="Jamie Ritchie" />
+        <img
+          class="bottom-face"
+          src="assets/images/jamie-ritchie.png"
+          alt="Jamie Ritchie"
+        />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
+          alt="World cup rugby logo"
+        />
+      </div>
+      <div class="card" data-name="jamie-ritchie">
+        <img
+          class="bottom-face"
+          src="assets/images/jamie-ritchie.png"
+          alt="Jamie Ritchie"
+        />
+        <img
+          class="top-face"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
       <div class="card" data-name="johnny-sexton">
         <img
           class="bottom-face"
-          src="images/johnny-sexton.png"
+          src="assets/images/johnny-sexton.png"
           alt="Johnny Sexton"
         />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
-    <div class="card" data-name="johnny-sexton">
-        <img class="bottom-face" src="images/johnny-sexton.png" alt="Johnny Sexton" />
-        <img class="top-face" src="images/logo.png" alt="World cup rugby logo" />
-    </div>
+      <div class="card" data-name="johnny-sexton">
+        <img
+          class="bottom-face"
+          src="assets/images/johnny-sexton.png"
+          alt="Johnny Sexton"
+        />
+        <img
+          class="top-face"
+          src="assets/images/logo.png"
+          alt="World cup rugby logo"
+        />
+      </div>
       <div class="card" data-name="michele-lamaro">
         <img
           class="bottom-face"
-          src="images/michele-lamaro.png"
+          src="assets/images/michele-lamaro.png"
           alt="Michele Lamaro"
         />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
-    <div class="card" data-name="michele-lamaro">
-        <img class="bottom-face" src="images/michele-lamaro.png" alt="Michele Lamaro" />
-        <img class="top-face" src="images/logo.png" alt="World cup rugby logo" />
-    </div>
+      <div class="card" data-name="michele-lamaro">
+        <img
+          class="bottom-face"
+          src="assets/images/michele-lamaro.png"
+          alt="Michele Lamaro"
+        />
+        <img
+          class="top-face"
+          src="assets/images/logo.png"
+          alt="World cup rugby logo"
+        />
+      </div>
       <div class="card" data-name="owen-farrell">
         <img
           class="bottom-face"
-          src="images/owen-farrell.png"
+          src="assets/images/owen-farrell.png"
           alt="Owen Farrell"
         />
         <img
           class="top-face"
-          src="images/logo.png"
+          src="assets/images/logo.png"
           alt="World cup rugby logo"
         />
       </div>
-    <div class="card" data-name="owen-farrell">
-        <img class="bottom-face" src="images/owen-farrell.png" alt="Owen Farrell" />
-        <img class="top-face" src="images/logo.png" alt="World cup rugby logo" />
-    </div>
+      <div class="card" data-name="owen-farrell">
+        <img
+          class="bottom-face"
+          src="assets/images/owen-farrell.png"
+          alt="Owen Farrell"
+        />
+        <img
+          class="top-face"
+          src="assets/images/logo.png"
+          alt="World cup rugby logo"
+        />
+      </div>
     </div>
 
     <script src="script.js"></script>
