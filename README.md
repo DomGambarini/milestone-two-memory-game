@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains all the information and code for the website of World Cup Rugby 2023 Memory CardGame. This web-based game hosts a fun and simple mempry card game inspired by the excitment of the Rugby World Cup 2023. Whether you're a rugby enthusiast or a fan of memory card games, this project offers an engaging experirnce. 
+This repository contains all the information and code for the website of World Cup Rugby 2023 Memory CardGame. This web-based game hosts a fun and simple mempry card game inspired by the excitment of the Rugby World Cup 2023. Whether you're a rugby enthusiast or a fan of memory card games, this project offers an engaging experirnce.
 
 ## About the Game
 
@@ -20,7 +20,6 @@ The World Cup Rugby Memory Card Game is designed to test your memory.The game fe
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [References](#references)
-
 
 ## Business Goals
 
@@ -72,7 +71,6 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - As a player, I want to play the game on different devices and screen sizes, and I expect the game to be responsive and work well on both desktop and mobile.
 - As a player, I want to have the option to start a new game at any time by clicking the "REMATCH" button, so I can restart without refreshing the page.
 - I want to check and see if there any additions to the game.
-
 
 ## Wireframes
 

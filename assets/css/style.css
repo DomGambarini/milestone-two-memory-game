@@ -30,6 +30,10 @@ header {
 #score-container {
     width: 100%;
     max-width: 150px;
+<<<<<<< HEAD
+=======
+    background: gray;
+>>>>>>> dea38a9669ff4c04ff8a3884c34fbd638cb4b151
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,7 +42,11 @@ header {
     gap: 1em;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dea38a9669ff4c04ff8a3884c34fbd638cb4b151
 }
 
 .modal {
@@ -102,7 +110,10 @@ header {
 #overlay.active {
     pointer-events: all;
     opacity: 1;
+<<<<<<< HEAD
     z-index: 5;
+=======
+>>>>>>> dea38a9669ff4c04ff8a3884c34fbd638cb4b151
 }
 
 body {
