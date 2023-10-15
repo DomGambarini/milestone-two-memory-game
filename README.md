@@ -104,6 +104,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 ![Alert a Loss](documentation/image-features/alert-you-lose.png)
 
 ## Technology
+
 - **Language:** HTML, CSS, Javascript
 - **Google Fonts:** Roboto
 - **Code Anywhere:** used a cloud code editor.
@@ -112,4 +113,8 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 ### Color used
 
-- **Nav Bar:** light pink 
+- **Nav Bar:** light pink #ffb6c1
+- **Heading and font:** Default black
+- **Ovelay color for Modal:** Mid green #1caf4380
+
+## Testing

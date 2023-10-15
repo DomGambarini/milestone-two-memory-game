@@ -95,7 +95,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(28, 175, 67, 0.5);
+    background-color: #1caf4380;
     pointer-events: none;
 }
 
