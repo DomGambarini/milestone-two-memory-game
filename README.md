@@ -75,3 +75,6 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 ## Wireframes
 
 ![Homepage](documentation/wireframes/rwc-wireframe.png)
+
+
+## Features
