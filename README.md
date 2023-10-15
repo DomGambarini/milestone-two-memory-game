@@ -1,3 +1,27 @@
+# Second Milestone Project: World Cup Rugby 2023 - Memory Card Game
+
+## Introduction
+
+This repository contains all the information and code for the website of World Cup Rugby 2023 Memory CardGame. This web-based game hosts a fun and simple mempry card game inspired by the excitment of the Rugby World Cup 2023. Whether you're a rugby enthusiast or a fan of memory card games, this project offers an engaging experirnce. 
+
+## About the Game
+
+The World Cup Rugby Memory Card Game is designed to test your memory.The game fetaures a grid of cards each depciting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
+
+## Table of Contents
+
+- [Business-Goals](#business-goals)
+- [5-Planes-of-UX](#5-planes-of-ux)
+- [User-Stories](#user-stories)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technology](#technology)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [References](#references)
+
+
 ## Business Goals
 
 ### Memory Card Game: World Cup Rugby 2023 website is designed to achieve the following business objectives:
@@ -47,10 +71,9 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - As a player, I want to be alerted when I win, lose or draw the game.
 - As a player, I want to play the game on different devices and screen sizes, and I expect the game to be responsive and work well on both desktop and mobile.
 - As a player, I want to have the option to start a new game at any time by clicking the "REMATCH" button, so I can restart without refreshing the page.
-
-### Returning Users
-
-As a returning user to World Cup Rugby 2023 Memory Card Game:
-
 - I want to check and see if there any additions to the game.
-- I want to show peers how play and have fun using the game.
+
+
+## Wireframes
+
+![Homepage](documentation/wireframes/rwc-wireframe.png)
