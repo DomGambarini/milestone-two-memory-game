@@ -76,5 +76,40 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 ![Homepage](documentation/wireframes/rwc-wireframe.png)
 
-
 ## Features
+
+- Interactive card grid for play.
+
+![Image of Card Game](documentation/image-features/game-board.png)
+![Image of Card Game Completed](documentation/image-features/completed-game-board.png)
+
+- Scoring system simulating rugby tries and penalties.
+
+![Score Board Try](documentation/image-features/score-display-7points.png)
+![Score Board Penalty](documentation/image-features/score-display-3points.png)
+
+- Rules Modal for quick and easy understanding of the game.
+
+![Rules Button](documentation/image-features/rules-button.png)
+![Rules Modal](documentation/image-features/rules-modal.png)
+
+- Restart the game at any time with the "REMATCH" button.
+
+![Rematch Button](documentation/image-features/rematch-button.png)
+
+- Alert system to notify you of the game results.
+
+![Alert a Draw](documentation/image-features/alert-its-a-draw.png)
+![Alert a Win](documentation/image-features/alert-you-win.png)
+![Alert a Loss](documentation/image-features/alert-you-lose.png)
+
+## Technology
+- **Language:** HTML, CSS, Javascript
+- **Google Fonts:** Roboto
+- **Code Anywhere:** used a cloud code editor.
+- **GitHub:** used as a cloud based code repository
+- **Sweet Alert:** used for alerts to notify game results
+
+### Color used
+
+- **Nav Bar:** light pink 

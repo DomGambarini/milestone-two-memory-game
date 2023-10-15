@@ -6,12 +6,12 @@
 
 header {
     padding: 1.5em;
-    background-color: lightpink;
+    background-color: #ffb6c1;
     display: flex;
 }
 
 .nav {
-    background: lightpink;
+    background: #ffb6c1;
     padding: 2px;
     flex-grow: 1;
 }
@@ -38,7 +38,7 @@ header {
     gap: 1em;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .modal {
@@ -48,7 +48,7 @@ header {
     transform: translate(-50%, -50%) scale(0);
     border: 1px solid black;
     border-radius: 10px;
-    background-color: pink;
+    background-color: #ffb6c1;
     z-index: 10;
     width: 500px;
     max-width: 80%;
