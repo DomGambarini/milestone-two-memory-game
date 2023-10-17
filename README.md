@@ -88,14 +88,15 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 ![Score Board Try](documentation/image-features/score-display-7points.png)
 ![Score Board Penalty](documentation/image-features/score-display-3points.png)
 
+- Restart the game at any time with the "REMATCH" button.
+- Rules button to open modal explaining the rules of the game.
+- Score display
+
+![Navigation Bar](documentation/image-features/nav-bar.png)
+
 - Rules Modal for quick and easy understanding of the game.
 
-![Rules Button](documentation/image-features/rules-button.png)
-![Rules Modal](documentation/image-features/rules-modal.png)
-
-- Restart the game at any time with the "REMATCH" button.
-
-![Rematch Button](documentation/image-features/rematch-button.png)
+![Modal](documentation/image-features/rules-modal.png)
 
 - Alert system to notify you of the game results.
 
@@ -110,6 +111,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - **Code Anywhere:** used a cloud code editor.
 - **GitHub:** used as a cloud based code repository
 - **Sweet Alert:** used for alerts to notify game results
+- **Midjourney:** used for the grass background image
 
 ### Color used
 
@@ -227,3 +229,15 @@ Forking: refers to creating a personal copy of someone else's repository under y
 2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
 3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
 4. At this point, you have successfully forked the repository, and you can start working with the code.
+
+## Credits
+
+**Code:**
+
+- Code on how to create 3D effect with flip cards came from information from this site: [Flip card effect](https://www.youtube.com/watch?v=ZniVgo8U7ek)
+- Code on how to create a modal came from information from this site: [Creating a modal](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=613s)
+
+## References
+
+- Playing card images for top card and bottom card from [Rugby World Cup](https://www.rugbyworldcup.com/2023)
+-
