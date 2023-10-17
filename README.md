@@ -81,7 +81,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - Interactive card grid for play.
 
 ![Image of Card Game](documentation/image-features/game-board.png)
-![Image of Card Game Completed](documentation/image-features/completed-game-board.png)
+![Image of Card Game Completed](documentation/image-features/completed-board.png)
 
 - Scoring system simulating rugby tries and penalties.
 
@@ -118,3 +118,37 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - **Ovelay color for Modal:** Mid green #1caf4380
 
 ## Testing
+
+- Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
+- Javascript code was validated and showed no signs of error with JSHint tool.
+
+## Manual Testing
+
+### Functional Testing
+
+| **Feature** | **Action** | **Behaviour** | **Result** |
+| ----------- | ---------- | ------------- | ---------- |
+| Rules Button | click button | opens modal | pass |
+| Close modal | click close button | modal closes | pass |
+| Rematch button | click rematch button | resets the game | pass |
+| Two matching cards | click two matching playing cards | 2 matching cards earn 7 points. Score display updates| pass |
+| Two mismatched cards | click two playing cards | 2 mismatched cards results -3 points. Score display updates | pass |
+| Complete game with negative points | Check game ends when all cards are matched | Alert: You Lose! | Pass |
+| Complete game with one point or more | Check game ends when all cards are matched | Alert: You Win! | Pass |
+| Complete game with 0 points | Check game ends when all cards are matched | Alert: It's a draw! | Pass |
+
+
+### UI/UX Testing:
+
+| **Feature** | **Action** | **Behaviour** | **Result** |
+| ----------- | ---------- | ------------- | ---------- |
+| Rematch Button | Hover over button | Cursor chnages, button highlights red | pass |
+| Rules Button | Hover over button | Cursor chnages, button highlights red | pass |
+| Modal overlay | Click rules button | overlay prevents clicking cards | pass |
+| Card flipping | click on cards | flip correctly and you can't double click same card | pass |
+| Matching cards | click two matching cards | matching cards stay face up | pass |
+| Two mismatching cards | click two mismatching cards | cards flip back to original position | pass |
+| Error handling | Try to break the game, rapidly clip on cards | game handles such cases | pass |
+ 
+
+
