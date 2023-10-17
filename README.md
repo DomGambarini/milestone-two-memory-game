@@ -110,6 +110,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - **GitHub:** used as a cloud based code repository
 - **Sweet Alert:** used for alerts to notify game results
 - **Midjourney:** used for the grass background image
+- **Balsamiq:** used to create the wireframes
 
 ### Color used
 
@@ -120,7 +121,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 ## Testing
 
 - Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
-- Javascript code was validated and showed no signs of error with JSHint tool.
+- Javascript code was validated and showed no sign of errors with JSHint tool.
 
 ## Manual Testing
 

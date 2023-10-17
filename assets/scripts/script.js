@@ -6,6 +6,7 @@ const openModal = [...document.querySelectorAll("[data-modal-target]")];
 const closeModal = [...document.querySelectorAll("[data-close-button]")];
 const overlay = document.getElementById("overlay");
 
+// modal click event
 openModal.forEach((button) => {
   button.addEventListener("click", () => {
     const modal = document.querySelector(button.dataset.modalTarget);
