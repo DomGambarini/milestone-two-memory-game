@@ -126,29 +126,104 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 ### Functional Testing
 
-| **Feature** | **Action** | **Behaviour** | **Result** |
-| ----------- | ---------- | ------------- | ---------- |
-| Rules Button | click button | opens modal | pass |
-| Close modal | click close button | modal closes | pass |
-| Rematch button | click rematch button | resets the game | pass |
-| Two matching cards | click two matching playing cards | 2 matching cards earn 7 points. Score display updates| pass |
-| Two mismatched cards | click two playing cards | 2 mismatched cards results -3 points. Score display updates | pass |
-| Complete game with negative points | Check game ends when all cards are matched | Alert: You Lose! | Pass |
-| Complete game with one point or more | Check game ends when all cards are matched | Alert: You Win! | Pass |
-| Complete game with 0 points | Check game ends when all cards are matched | Alert: It's a draw! | Pass |
-
+| **Feature**                          | **Action**                                 | **Behaviour**                                               | **Result** |
+| ------------------------------------ | ------------------------------------------ | ----------------------------------------------------------- | ---------- |
+| Rules Button                         | click button                               | opens modal                                                 | pass       |
+| Close modal                          | click close button                         | modal closes                                                | pass       |
+| Rematch button                       | click rematch button                       | resets the game                                             | pass       |
+| Two matching cards                   | click two matching playing cards           | 2 matching cards earn 7 points. Score display updates       | pass       |
+| Two mismatched cards                 | click two playing cards                    | 2 mismatched cards results -3 points. Score display updates | pass       |
+| Complete game with negative points   | Check game ends when all cards are matched | Alert: You Lose!                                            | Pass       |
+| Complete game with one point or more | Check game ends when all cards are matched | Alert: You Win!                                             | Pass       |
+| Complete game with 0 points          | Check game ends when all cards are matched | Alert: It's a draw!                                         | Pass       |
 
 ### UI/UX Testing:
 
-| **Feature** | **Action** | **Behaviour** | **Result** |
-| ----------- | ---------- | ------------- | ---------- |
-| Rematch Button | Hover over button | Cursor chnages, button highlights red | pass |
-| Rules Button | Hover over button | Cursor chnages, button highlights red | pass |
-| Modal overlay | Click rules button | overlay prevents clicking cards | pass |
-| Card flipping | click on cards | flip correctly and you can't double click same card | pass |
-| Matching cards | click two matching cards | matching cards stay face up | pass |
-| Two mismatching cards | click two mismatching cards | cards flip back to original position | pass |
-| Error handling | Try to break the game, rapidly clip on cards | game handles such cases | pass |
- 
+| **Feature**           | **Action**                                   | **Behaviour**                                       | **Result** |
+| --------------------- | -------------------------------------------- | --------------------------------------------------- | ---------- |
+| Rematch Button        | Hover over button                            | Cursor chnages, button highlights red               | pass       |
+| Rules Button          | Hover over button                            | Cursor chnages, button highlights red               | pass       |
+| Modal overlay         | Click rules button                           | overlay prevents clicking cards                     | pass       |
+| Card flipping         | click on cards                               | flip correctly and you can't double click same card | pass       |
+| Matching cards        | click two matching cards                     | matching cards stay face up                         | pass       |
+| Two mismatching cards | click two mismatching cards                  | cards flip back to original position                | pass       |
+| Error handling        | Try to break the game, rapidly clip on cards | game handles such cases                             | pass       |
 
+### Devices and Browsers Used for Testing
 
+Mac Pro 2014
+
+- Safari: Version 16.4.1
+- Firefox: 118.0.2
+- Chrome: Version 116.0.5845.96
+
+Dell desktop
+
+- Safari
+- Firefox
+- Chrome
+
+Iphone 8
+
+- Safari
+- Firefox
+- Chrome
+
+### Known bugs
+
+- Currently no known bugs.
+
+## Deployment
+
+### Setting up GitHub pages:
+
+1. To add files to the repository take the following steps
+1. In the command line type - git add .
+   git commit -m "This is being committed" git push
+1. To add all new files or modified file use " ." - To add a single file use the pathway to the file eg .index.html or assets/css/style.css When committing make sure your comments are clear about what changes have been made. Pushing will send your work to the repository
+1. Any changes made and pushed to the main branch will automatically show up on the site.
+
+### Making changes to the website:
+
+First you need to sign-up to GitHub and Code Anywhere. To do this please see below.
+
+#### Create a Code Anywhere account:
+
+1. If you don't already have one, go to the Code Anywhere website https://codeanywhere.com/signup and create a new account.
+2. Enter first and last name.
+3. Enter Email
+4. Enter new password
+
+#### Create a GitHub account:
+
+1. If you don't already have one, go to the GitHub website https://github.com/ and create a new account.
+2. Click sign up
+3. Enter email address
+4. Enter username
+5. Create password
+6. Verify your account by solving the puzzles
+7. Click create account
+8. Verify your account in using your sign-up email
+
+To access the code to this project there are two options: **Cloning** and **Forking**.
+
+Cloning: code will be linked to your repo and any pushes you make will go to the original developer for approval.
+
+#### Here is how to clone code:
+
+1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project)
+2. Above the list of files, click <> **Code**.
+3. Copy the URL for the repository.
+4. In a separate tab, open Code Anywhere
+5. Create a new workspace
+6. Type ' git clone ', and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+Forking: refers to creating a personal copy of someone else's repository under your own GitHub account. This copy is stored in your account and allows you to freely experiment with and make changes to the code without affecting the original repository. If I make changes to the original repo you will be informed and have the option to pull.
+
+#### Here is how to fork code:
+
+1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/first-milestone-project)
+2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
+3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
+4. At this point, you have successfully forked the repository, and you can start working with the code.
