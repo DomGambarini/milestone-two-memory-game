@@ -10,6 +10,13 @@ header {
   display: flex;
 }
 
+body {
+  background-image: url("/assets/images/grass-bg.png");
+  min-height: 100vh;
+}
+
+/**************************************** navigation menu */
+
 .nav {
   background: #ffb6c1;
   padding: 2px;
@@ -21,10 +28,6 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-#logo {
-  margin-left: auto;
 }
 
 #score-container {
@@ -39,6 +42,23 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+#logo {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+#result {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/**************************************** modal */
 
 .modal {
   position: fixed;
@@ -87,6 +107,8 @@ header {
   font-family: "Roboto", sans-serif;
 }
 
+/**************************************** overlay */
+
 #overlay {
   position: fixed;
   opacity: 0;
@@ -104,24 +126,7 @@ header {
   z-index: 5;
 }
 
-body {
-  background-image: url("/assets/images/grass-bg.png");
-  min-height: 100vh;
-}
-
-#logo {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 2px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-#result {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 2px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
+/**************************************** buttons */
 
 #rematch-button,
 #rules-button {
@@ -149,6 +154,8 @@ body {
   border-color: red;
   box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 50%);
 }
+
+/**************************************** game board and cards */
 
 #grid-container {
   width: 900px;
@@ -195,6 +202,8 @@ body {
 .bottom-face {
   transform: rotateY(180deg);
 }
+
+/**************************************** media queries */
 
 @media (max-width: 900px) {
   #grid-container {

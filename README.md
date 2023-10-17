@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This repository contains all the information and code for the website of World Cup Rugby 2023 Memory CardGame. This web-based game hosts a fun and simple mempry card game inspired by the excitment of the Rugby World Cup 2023. Whether you're a rugby enthusiast or a fan of memory card games, this project offers an engaging experirnce.
+This repository contains all the information and code for the website: World Cup Rugby 2023 Memory Card Game. This web-based game hosts a fun and simple memory card game inspired by the excitement of the Rugby World Cup 2023. Whether you're a rugby enthusiast or a fan of memory card games, this project offers an engaging experience.
 
 ## About the Game
 
-The World Cup Rugby Memory Card Game is designed to test your memory.The game fetaures a grid of cards each depciting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
+The World Cup Rugby Memory Card Game is designed to test your memory. The game features a grid of cards each depiciting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
 
 ## Table of Contents
 
@@ -25,20 +25,20 @@ The World Cup Rugby Memory Card Game is designed to test your memory.The game fe
 
 ### Memory Card Game: World Cup Rugby 2023 website is designed to achieve the following business objectives:
 
-- Engage rugby enthusiats and fans of the Rugby World Cup 2023 by providing an enjoyable and interactive gaming experience.
-- Promote the Rugby World Cup by using the game as a fun and enducational tool.
+- Engage rugby enthusiast and fans of the Rugby World Cup 2023 by providing an enjoyable and interactive gaming experience.
+- Promote the Rugby World Cup by using the game as a fun and educational tool.
 - Enhance the brand visibility and recognition of the World Cup.
 - Increase website traffic. Use the game as a traffic generator and increase user engagement.
 - Community building among rugby fans by incorporating social sharing features and encouraging fans to connect with each other.
 
-### Memory Card Game: World Cup Rugby 2023 aims to fulfill the following user goals:
+### Memory Card Game: World Cup Rugby 2023 aims to fulfil the following user goals:
 
 - Entertainment for the user, offering a fun memory card game that can be enjoyed during leisure time.
 - Educate users about teams and players in the rugby world cup.
 - Competition where users can compete against one another.
 - Create nostalgia and celebrate their favourite players from the rugby world cup.
 - Stress relief and relaxation tool that can be enjoyed as a break in the day.
-- Accessable to all ages and skill levels.
+- Accessible to all ages and skill levels.
 - Can help children with their cognitive, memory and concentration.
 - Family friendly. Parents and children can engage playing the game.
 - Help encourage sport to a new younger generation.
@@ -51,7 +51,7 @@ To ensure a comprehensive and seamless user experience, this website focuses on 
 
 **Scope:** The game's scope encompasses essential game features, player cards and game mechanics. It emphasizes simplicity and accessibility, ensuring that players of all ages can easily understand and enjoy the game.
 
-**Structure:** The game's navigation and structure are intuitive, making it easy for users to access different sections and features. It employs a clear and consistent labeling to facilitate smooth gameplay, catering to both adult rugby fans and children.
+**Structure:** The game's navigation and structure are intuitive, making it easy for users to access different sections and features. It employs a clear and consistent labelling to facilitate smooth gameplay, catering to both adult rugby fans and children.
 
 **Skeleton:** The game's layout, typography, and visual elements are designed to create an appealing and harmonious interface. It uses responsive design to ensure the game adapts well to various devices and screen sizes.
 
@@ -100,9 +100,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 - Alert system to notify you of the game results.
 
-![Alert a Draw](documentation/image-features/alert-its-a-draw.png)
-![Alert a Win](documentation/image-features/alert-you-win.png)
-![Alert a Loss](documentation/image-features/alert-you-lose.png)
+![Alert a Draw](documentation/image-features/alert-its-a-draw.png) ![Alert a Win](documentation/image-features/alert-you-win.png) ![Alert a Loss](documentation/image-features/alert-you-lose.png)
 
 ## Technology
 
@@ -117,7 +115,7 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 - **Nav Bar:** light pink #ffb6c1
 - **Heading and font:** Default black
-- **Ovelay color for Modal:** Mid green #1caf4380
+- **Overlay color for Modal:** Mid green #1caf4380
 
 ## Testing
 
@@ -143,8 +141,8 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 | **Feature**           | **Action**                                   | **Behaviour**                                       | **Result** |
 | --------------------- | -------------------------------------------- | --------------------------------------------------- | ---------- |
-| Rematch Button        | Hover over button                            | Cursor chnages, button highlights red               | pass       |
-| Rules Button          | Hover over button                            | Cursor chnages, button highlights red               | pass       |
+| Rematch Button        | Hover over button                            | Cursor changes, button highlights red               | pass       |
+| Rules Button          | Hover over button                            | Cursor changes, button highlights red               | pass       |
 | Modal overlay         | Click rules button                           | overlay prevents clicking cards                     | pass       |
 | Card flipping         | click on cards                               | flip correctly and you can't double click same card | pass       |
 | Matching cards        | click two matching cards                     | matching cards stay face up                         | pass       |
@@ -213,7 +211,7 @@ Cloning: code will be linked to your repo and any pushes you make will go to the
 
 #### Here is how to clone code:
 
-1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project)
+1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/milestone-two-memory-game)
 2. Above the list of files, click <> **Code**.
 3. Copy the URL for the repository.
 4. In a separate tab, open Code Anywhere
@@ -225,7 +223,7 @@ Forking: refers to creating a personal copy of someone else's repository under y
 
 #### Here is how to fork code:
 
-1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/first-milestone-project)
+1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/milestone-two-memory-game)
 2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
 3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
 4. At this point, you have successfully forked the repository, and you can start working with the code.
@@ -240,4 +238,5 @@ Forking: refers to creating a personal copy of someone else's repository under y
 ## References
 
 - Playing card images for top card and bottom card from [Rugby World Cup](https://www.rugbyworldcup.com/2023)
--
+- [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+- Free Code Camp [Marina Ferreira](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=695s)
