@@ -11,7 +11,7 @@ header {
 }
 
 body {
-  background-image: url("/assets/images/bg-image-grass.png");
+  background: url("/assets/images/bg-image-grass.png");
   min-height: 100vh;
 }
 
@@ -141,6 +141,7 @@ body {
   border-radius: 10px;
   border: 2px solid green;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 #rematch-button:hover {
@@ -216,19 +217,6 @@ body {
     height: calc(33.333% - 25px);
     margin: 5px 0;
   }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 1em;
-  }
-
-  .nav-list {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .list-item {
     margin: 10px 0;
   }
@@ -247,14 +235,7 @@ body {
     margin: 5px 0;
   }
 
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
   .nav-list {
-    flex-direction: column;
     text-align: center;
   }
 
@@ -263,7 +244,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   #grid-container {
     width: 480px;
     height: 400px;
