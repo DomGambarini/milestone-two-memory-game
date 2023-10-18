@@ -123,6 +123,20 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
 - Javascript code was validated and showed no sign of errors with JSHint tool.
 
+## Automated or Manual Testing? 
+
+### Principles of Automated Testing
+- You can repeatidly run tests without variation ensuring consistent results across mulitple test runs. This can be done over a large scale.
+- You can also check if new code changes introduce new bugs - known as regression testing.
+- Continious Intergration (CI) is an intergral part of CI pipelines, helping catch issues with the code early in the process of developement.
+
+### Manual Testing 
+- Is essential for exploratory testing, where testers can explore the application or websites functionality to uncover unforeseen problems.
+- It is good way to test the overall user experience with a user centric approach. 
+
+For this project I have chosen manual testing because it is a simple game with high level of human interaction. I therefore wanted to ensure the UX was good quality.  
+
+
 ## Manual Testing
 
 ### Functional Testing
