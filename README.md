@@ -8,6 +8,8 @@ This repository contains all the information and code for the website: World Cup
 
 The World Cup Rugby Memory Card Game is designed to test your memory. The game features a grid of cards each depiciting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
 
+![Mock Up](documentation/mock-up.png)
+
 ## Table of Contents
 
 - [Business-Goals](#business-goals)
@@ -120,23 +122,23 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 ## Testing
 
+### PageSpeed Insights
+
+![Mobile](documentation/performance-images/mobile-performance.png)
+
+![Desktop](documentation/performance-images/desktop-performance.png)
+
 - Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
 - Javascript code was validated and showed no sign of errors with JSHint tool.
 
 ## Automated or Manual Testing?
 
-### Principles of Automated Testing
+Due to the simplicity and scope of this basic memory card game, I found it more beneficial and practical to conduct manual testing rather than automated testing. Manual testing allowed me to go through the game step by step, thoroughly examining all possible aspects of the game with a strong focus on user experience (UX) and user interface (UI). It enabled me to visually evaluate the game's behavior, ensuring that the user experience matched the intended design. Additionally, it provided an opportunity to have other users test the game to identify any potential issues. I encouraged them to attempt to 'break' the game to see if any problems emerged.
 
-- You can repeatidly run tests without variation ensuring consistent results across mulitple test runs. This can be done over a large scale.
-- You can also check if new code changes introduce new bugs - known as regression testing.
-- Continious Intergration (CI) is an intergral part of CI pipelines, helping catch issues with the code early in the process of developement.
+Manual testing allowed both myself and others to explore the game freely, uncovering aspects that might have been missed in automated testing. Moreover, given time constraints, automated testing would have been too time-consuming and less advantageous.
 
-### Manual Testing
+Finally, considering the goal of assessing the game across multiple browsers, manual testing seemed more practical.
 
-- Is essential for exploratory testing, where testers can explore the application or websites functionality to uncover unforeseen problems.
-- It is good way to test the overall user experience with a user centric approach.
-
-For this particular project, I have opted for manual testing due to its simplicity and the high degree of human interaction involved. This choice was made to ensure a high-quality user experience.
 
 ## Manual Testing
 

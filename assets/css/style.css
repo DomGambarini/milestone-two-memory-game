@@ -134,7 +134,7 @@ body {
   letter-spacing: 2px;
   padding: 3px;
   background-color: lightblue;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
   height: 5ch;
   width: 15ch;
@@ -280,7 +280,7 @@ body {
     letter-spacing: 2px;
     padding: 3px;
     background-color: lightblue;
-    font-size: 8px;
+    font-size: 0.5rem;
     font-weight: bold;
     height: 5ch;
     width: 15ch;
