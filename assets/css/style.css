@@ -11,7 +11,7 @@ header {
 }
 
 body {
-  background: url("/assets/images/bg-image-grass.png");
+  background: url("../images/bg-image-grass.png");
   min-height: 100vh;
 }
 
