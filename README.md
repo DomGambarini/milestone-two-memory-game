@@ -6,7 +6,7 @@ This repository contains all the information and code for the website: World Cup
 
 ## About the Game
 
-The World Cup Rugby Memory Card Game is designed to test your memory. The game features a grid of cards each depiciting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
+The World Cup Rugby Memory Card Game is designed to test your memory. The game features a grid of cards each depicting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
 
 ![Mock Up](documentation/mock-up.png)
 
@@ -114,7 +114,9 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - **Midjourney:** used for the grass background image
 - **Balsamiq:** used to create the wireframes
 
-### Color used
+### Color Scheme
+
+Device and Browser Testing: It's great that you've in
 
 - **Nav Bar:** light pink #ffb6c1
 - **Heading and font:** Default black
@@ -124,9 +126,9 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 
 ### PageSpeed Insights
 
-![Mobile](documentation/performance-images/mobile-performance.png)
+![Mobile](../performance-images/mobile-performance.png)
 
-![Desktop](documentation/performance-images/desktop-performance.png)
+![Desktop](../performance-images/desktop-performance.png)
 
 - Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
 - Javascript code was validated and showed no sign of errors with JSHint tool.
@@ -138,7 +140,6 @@ Due to the simplicity and scope of this basic memory card game, I found it more 
 Manual testing allowed both myself and others to explore the game freely, uncovering aspects that might have been missed in automated testing. Moreover, given time constraints, automated testing would have been too time-consuming and less advantageous.
 
 Finally, considering the goal of assessing the game across multiple browsers, manual testing seemed more practical.
-
 
 ## Manual Testing
 
@@ -169,19 +170,13 @@ Finally, considering the goal of assessing the game across multiple browsers, ma
 
 ### Devices and Browsers Used for Testing
 
-Mac Pro 2014
+Mac Pro 2014: macOS Big Sur
 
 - Safari: Version 16.4.1
 - Firefox: 118.0.2
 - Chrome: Version 116.0.5845.96
 
-Dell desktop
-
-- Safari
-- Firefox
-- Chrome
-
-Iphone 8
+Iphone 8: iOS 16.1.1
 
 - Safari
 - Firefox
@@ -190,6 +185,8 @@ Iphone 8
 ### Known bugs
 
 - Currently no known bugs.
+- I did have an issue with the navigation menu. Everytime the score updated nav items would shift. This was rectified by increasing the size of the div for the score.
+- The modal was also casuing issues as it would not close at one stage but this was due to a simple typo of the global variable: const closeModal.
 
 ## Deployment
 
