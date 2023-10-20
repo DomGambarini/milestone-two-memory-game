@@ -126,6 +126,10 @@ Device and Browser Testing: It's great that you've in
 
 ### PageSpeed Insights
 
+![Mobile](documentation/page-speed-insights/mobile-performance.png)
+
+![Desktop](documentation/page-speed-insights/desktop-performance.png)
+
 - Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
 - Javascript code was validated and showed no sign of errors with JSHint tool.
 
