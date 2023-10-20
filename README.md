@@ -1,21 +1,46 @@
+# Second Milestone Project: World Cup Rugby 2023 - Memory Card Game
+
+## Introduction
+
+This repository contains all the information and code for the website: World Cup Rugby 2023 Memory Card Game. This web-based game hosts a fun and simple memory card game inspired by the excitement of the Rugby World Cup 2023. Whether you're a rugby enthusiast or a fan of memory card games, this project offers an engaging experience.
+
+## About the Game
+
+The World Cup Rugby Memory Card Game is designed to test your memory. The game features a grid of cards each depicting rugby player captains participating in the Rugby World Cup 2023. Your goal is to flip the cards, revealing the players, and match pairs to score points. But mismatched cards come with a penalty.
+
+![Mock Up](documentation/mock-up.png)
+
+## Table of Contents
+
+- [Business-Goals](#business-goals)
+- [5-Planes-of-UX](#5-planes-of-ux)
+- [User-Stories](#user-stories)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technology](#technology)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [References](#references)
+
 ## Business Goals
 
 ### Memory Card Game: World Cup Rugby 2023 website is designed to achieve the following business objectives:
 
-- Engage rugby enthusiats and fans of the Rugby World Cup 2023 by providing an enjoyable and interactive gaming experience.
-- Promote the Rugby World Cup by using the game as a fun and enducational tool.
+- Engage rugby enthusiast and fans of the Rugby World Cup 2023 by providing an enjoyable and interactive gaming experience.
+- Promote the Rugby World Cup by using the game as a fun and educational tool.
 - Enhance the brand visibility and recognition of the World Cup.
 - Increase website traffic. Use the game as a traffic generator and increase user engagement.
 - Community building among rugby fans by incorporating social sharing features and encouraging fans to connect with each other.
 
-### Memory Card Game: World Cup Rugby 2023 aims to fulfill the following user goals:
+### Memory Card Game: World Cup Rugby 2023 aims to fulfil the following user goals:
 
 - Entertainment for the user, offering a fun memory card game that can be enjoyed during leisure time.
 - Educate users about teams and players in the rugby world cup.
 - Competition where users can compete against one another.
 - Create nostalgia and celebrate their favourite players from the rugby world cup.
 - Stress relief and relaxation tool that can be enjoyed as a break in the day.
-- Accessable to all ages and skill levels.
+- Accessible to all ages and skill levels.
 - Can help children with their cognitive, memory and concentration.
 - Family friendly. Parents and children can engage playing the game.
 - Help encourage sport to a new younger generation.
@@ -28,7 +53,7 @@ To ensure a comprehensive and seamless user experience, this website focuses on 
 
 **Scope:** The game's scope encompasses essential game features, player cards and game mechanics. It emphasizes simplicity and accessibility, ensuring that players of all ages can easily understand and enjoy the game.
 
-**Structure:** The game's navigation and structure are intuitive, making it easy for users to access different sections and features. It employs a clear and consistent labeling to facilitate smooth gameplay, catering to both adult rugby fans and children.
+**Structure:** The game's navigation and structure are intuitive, making it easy for users to access different sections and features. It employs a clear and consistent labelling to facilitate smooth gameplay, catering to both adult rugby fans and children.
 
 **Skeleton:** The game's layout, typography, and visual elements are designed to create an appealing and harmonious interface. It uses responsive design to ensure the game adapts well to various devices and screen sizes.
 
@@ -47,10 +72,182 @@ As a user of World Cup Rugby 2023 Memory Card Game:
 - As a player, I want to be alerted when I win, lose or draw the game.
 - As a player, I want to play the game on different devices and screen sizes, and I expect the game to be responsive and work well on both desktop and mobile.
 - As a player, I want to have the option to start a new game at any time by clicking the "REMATCH" button, so I can restart without refreshing the page.
-
-### Returning Users
-
-As a returning user to World Cup Rugby 2023 Memory Card Game:
-
 - I want to check and see if there any additions to the game.
-- I want to show peers how play and have fun using the game.
+
+## Wireframes
+
+![Homepage](documentation/wireframes/rwc-wireframe.png)
+
+## Features
+
+- Interactive card grid for play.
+
+![Image of Card Game](documentation/image-features/game-board.png)
+![Image of Card Game Completed](documentation/image-features/completed-board.png)
+
+- Scoring system simulating rugby tries and penalties.
+
+![Score Board Try](documentation/image-features/score-display-7points.png)
+![Score Board Penalty](documentation/image-features/score-display-3points.png)
+
+- Restart the game at any time with the "REMATCH" button.
+- Rules button to open modal explaining the rules of the game.
+- Score display
+
+![Navigation Bar](documentation/image-features/nav-bar.png)
+
+- Rules Modal for quick and easy understanding of the game.
+
+![Modal](documentation/image-features/rules-modal.png)
+
+- Alert system to notify you of the game results.
+
+![Alert a Draw](documentation/image-features/alert-its-a-draw.png) ![Alert a Win](documentation/image-features/alert-you-win.png) ![Alert a Loss](documentation/image-features/alert-you-lose.png)
+
+## Technology
+
+- **Language:** HTML, CSS, Javascript
+- **Google Fonts:** Roboto
+- **Code Anywhere:** used a cloud code editor.
+- **GitHub:** used as a cloud based code repository
+- **Sweet Alert:** used for alerts to notify game results
+- **Midjourney:** used for the grass background image
+- **Balsamiq:** used to create the wireframes
+
+### Color Scheme
+
+Device and Browser Testing: It's great that you've in
+
+- **Nav Bar:** light pink #ffb6c1
+- **Heading and font:** Default black
+- **Overlay color for Modal:** Mid green #1caf4380
+
+## Testing
+
+### PageSpeed Insights
+
+- Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
+- Javascript code was validated and showed no sign of errors with JSHint tool.
+
+## Automated or Manual Testing?
+
+Due to the simplicity and scope of this basic memory card game, I found it more beneficial and practical to conduct manual testing rather than automated testing. Manual testing allowed me to go through the game step by step, thoroughly examining all possible aspects of the game with a strong focus on user experience (UX) and user interface (UI). It enabled me to visually evaluate the game's behavior, ensuring that the user experience matched the intended design. Additionally, it provided an opportunity to have other users test the game to identify any potential issues. I encouraged them to attempt to 'break' the game to see if any problems emerged.
+
+Manual testing allowed both myself and others to explore the game freely, uncovering aspects that might have been missed in automated testing. Moreover, given time constraints, automated testing would have been too time-consuming and less advantageous.
+
+Finally, considering the goal of assessing the game across multiple browsers, manual testing seemed more practical.
+
+## Manual Testing
+
+### Functional Testing
+
+| **Feature**                          | **Action**                                 | **Behaviour**                                               | **Result** |
+| ------------------------------------ | ------------------------------------------ | ----------------------------------------------------------- | ---------- |
+| Rules Button                         | click button                               | opens modal                                                 | pass       |
+| Close modal                          | click close button                         | modal closes                                                | pass       |
+| Rematch button                       | click rematch button                       | resets the game                                             | pass       |
+| Two matching cards                   | click two matching playing cards           | 2 matching cards earn 7 points. Score display updates       | pass       |
+| Two mismatched cards                 | click two playing cards                    | 2 mismatched cards results -3 points. Score display updates | pass       |
+| Complete game with negative points   | Check game ends when all cards are matched | Alert: You Lose!                                            | Pass       |
+| Complete game with one point or more | Check game ends when all cards are matched | Alert: You Win!                                             | Pass       |
+| Complete game with 0 points          | Check game ends when all cards are matched | Alert: It's a draw!                                         | Pass       |
+
+### UI/UX Testing:
+
+| **Feature**           | **Action**                                   | **Behaviour**                                       | **Result** |
+| --------------------- | -------------------------------------------- | --------------------------------------------------- | ---------- |
+| Rematch Button        | Hover over button                            | Cursor changes, button highlights red               | pass       |
+| Rules Button          | Hover over button                            | Cursor changes, button highlights red               | pass       |
+| Modal overlay         | Click rules button                           | overlay prevents clicking cards                     | pass       |
+| Card flipping         | click on cards                               | flip correctly and you can't double click same card | pass       |
+| Matching cards        | click two matching cards                     | matching cards stay face up                         | pass       |
+| Two mismatching cards | click two mismatching cards                  | cards flip back to original position                | pass       |
+| Error handling        | Try to break the game, rapidly clip on cards | game handles such cases                             | pass       |
+
+### Devices and Browsers Used for Testing
+
+Mac Pro 2014: macOS Big Sur
+
+- Safari: Version 16.4.1
+- Firefox: 118.0.2
+- Chrome: Version 116.0.5845.96
+
+Iphone 8: iOS 16.1.1
+
+- Safari
+- Firefox
+- Chrome
+
+### Known bugs
+
+- Currently no known bugs.
+- I did have an issue with the navigation menu. Everytime the score updated nav items would shift. This was rectified by increasing the size of the div for the score.
+- The modal was also casuing issues as it would not close at one stage but this was due to a simple typo of the global variable: const closeModal.
+
+## Deployment
+
+### Setting up GitHub pages:
+
+1. To add files to the repository take the following steps
+1. In the command line type - git add .
+   git commit -m "This is being committed" git push
+1. To add all new files or modified file use " ." - To add a single file use the pathway to the file eg .index.html or assets/css/style.css When committing make sure your comments are clear about what changes have been made. Pushing will send your work to the repository
+1. Any changes made and pushed to the main branch will automatically show up on the site.
+
+### Making changes to the website:
+
+First you need to sign-up to GitHub and Code Anywhere. To do this please see below.
+
+#### Create a Code Anywhere account:
+
+1. If you don't already have one, go to the Code Anywhere website https://codeanywhere.com/signup and create a new account.
+2. Enter first and last name.
+3. Enter Email
+4. Enter new password
+
+#### Create a GitHub account:
+
+1. If you don't already have one, go to the GitHub website https://github.com/ and create a new account.
+2. Click sign up
+3. Enter email address
+4. Enter username
+5. Create password
+6. Verify your account by solving the puzzles
+7. Click create account
+8. Verify your account in using your sign-up email
+
+To access the code to this project there are two options: **Cloning** and **Forking**.
+
+Cloning: code will be linked to your repo and any pushes you make will go to the original developer for approval.
+
+#### Here is how to clone code:
+
+1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/milestone-two-memory-game)
+2. Above the list of files, click <> **Code**.
+3. Copy the URL for the repository.
+4. In a separate tab, open Code Anywhere
+5. Create a new workspace
+6. Type ' git clone ', and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+Forking: refers to creating a personal copy of someone else's repository under your own GitHub account. This copy is stored in your account and allows you to freely experiment with and make changes to the code without affecting the original repository. If I make changes to the original repo you will be informed and have the option to pull.
+
+#### Here is how to fork code:
+
+1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/milestone-two-memory-game)
+2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
+3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
+4. At this point, you have successfully forked the repository, and you can start working with the code.
+
+## Credits
+
+**Code:**
+
+- Code on how to create 3D effect with flip cards came from information from this site: [Flip card effect](https://www.youtube.com/watch?v=ZniVgo8U7ek)
+- Code on how to create a modal came from information from this site: [Creating a modal](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=613s)
+
+## References
+
+- Playing card images for top card and bottom card from [Rugby World Cup](https://www.rugbyworldcup.com/2023)
+- [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+- Free Code Camp [Marina Ferreira](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=695s)

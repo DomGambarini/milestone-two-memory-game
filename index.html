@@ -13,20 +13,30 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>World Cup Rugby 2023</title>
   </head>
+
   <header>
+    <!--------------------------------------------------------------- Navigation menu-->
+
     <nav class="nav">
       <ul class="nav-list">
         <li class="list-item" id="logo">WORLD CUP RUGBY 2023</li>
         <li class="list-item" id="score-container">
           <span id="result">Score: 0</span>
         </li>
-        <li class="list-item"><button id="rematch-button">REMATCH</button></li>
-        <li class="list-item">
+        <!--------------------------------------------------------------- buttons-->
+
+        <li class="list-item btn-responsive">
+          <button id="rematch-button">REMATCH</button>
+        </li>
+        <li class="list-item btn-responsive">
           <button id="rules-button" data-modal-target="#modal">RULES</button>
         </li>
+        <!--------------------------------------------------------------- modal-->
+
         <div class="modal" id="modal">
           <div class="modal-header">
             <div class="title">HOW TO PLAY</div>
@@ -56,6 +66,7 @@
     </nav>
   </header>
 
+  <!--------------------------------------------------------------- game board and cards-->
   <body>
     <div id="grid-container">
       <div class="card" data-name="antoine-dupont">
@@ -204,6 +215,6 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>

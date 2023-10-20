@@ -2,23 +2,22 @@ const cards = document.querySelectorAll(".card");
 const rematchButton = document.getElementById("rematch-button");
 const gridContainer = document.getElementById("grid-container");
 const scoreDisplay = document.getElementById("result");
-const openModal = [...document.querySelectorAll("[data-modal-target]")];
-const closeModal = [...document.querySelectorAll("[data-close-button]")];
+const openModal = document.querySelector("[data-modal-target]");
+const closeModal = document.querySelector("[data-close-button]");
 const overlay = document.getElementById("overlay");
 
-openModal.forEach((button) => {
-    button.addEventListener("click", () => {
-        const modal = document.querySelector(button.dataset.modalTarget);
-        modalOpen(modal);
-    });
+// modal click event
+openModal.addEventListener("click", () => {
+    const modal = document.querySelector(openModal.dataset.modalTarget);
+    modalOpen(modal);
 });
 
-closeModal.forEach((button) => {
-    button.addEventListener("click", () => {
-        const modal = button.closest(".modal");
-        modalClose(modal);
-    });
+
+closeModal.addEventListener("click", () => {
+    const modal = closeModal.closest(".modal");
+    modalClose(modal);
 });
+
 
 function modalOpen(modal) {
     if (modal == null) return;
@@ -80,11 +79,11 @@ function checkForWinner() {
     const matchedCards = document.querySelectorAll(".card.turn");
     if (matchedCards.length === cards.length) {
         if (score > 0) {
-            alert("You win!");
+            Swal.fire("You win!");
         } else if (score < 0) {
-            alert("You lose!");
+            Swal.fire("You lose!");
         } else {
-            alert("It is a draw!");
+            Swal.fire("It's a draw!");
         }
     }
 }
