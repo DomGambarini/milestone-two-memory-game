@@ -49,9 +49,9 @@ The World Cup Rugby Memory Card Game is designed to test your memory. The game f
 
 To ensure a comprehensive and seamless user experience, this website focuses on the following five planes of UX:
 
-**Strategy:** The game is strategically designed to align with the business goals of promoting the Rugby World Cup 2023 and engaging users effectively. It aims to educates users about the World Cup while providing entertainment. The game's design is user-centered, catering to both rugby enthusiasts and the younger generation new to the sport, ensuring that it resonates with the essence of the event.
+**Strategy:** The game is strategically designed to align with the business goals of promoting the Rugby World Cup 2023 and engaging users effectively. It aims to educate users about the World Cup while providing entertainment. The game's design is user-centered, catering to both rugby enthusiasts and the younger generation new to the sport, ensuring that it resonates with the essence of the event.
 
-**Scope:** The game's scope encompasses essential game features, player cards and game mechanics. It emphasizes simplicity and accessibility, ensuring that players of all ages can easily understand and enjoy the game.
+**Scope:** The game's scope encompasses essential game features, player cards and game mechanics. It emphasises simplicity and accessibility, ensuring that players of all ages can easily understand and enjoy the game.
 
 **Structure:** The game's navigation and structure are intuitive, making it easy for users to access different sections and features. It employs a clear and consistent labelling to facilitate smooth gameplay, catering to both adult rugby fans and children.
 
@@ -187,6 +187,7 @@ Iphone 8: iOS 16.1.1
 - Currently no known bugs.
 - I did have an issue with the navigation menu. Everytime the score updated nav items would shift. This was rectified by increasing the size of the div for the score.
 - The modal was also casuing issues as it would not close at one stage but this was due to a simple typo of the global variable: const closeModal.
+- I encountered problems with the command line when attempting to execute 'git add,' 'git commit,' and 'git push' because the local and main branches on GitHub were not synchronizing. However, I have successfully resolved these issues, and the deployment is now complete.
 
 ## Deployment
 
